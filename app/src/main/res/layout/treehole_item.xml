@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#00000"
+        android:id="@+id/textSeqTree"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这里是内容这里是内容这里是内容这里是内容"
+        android:id="@+id/textContentTree"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/places_blue_128"
+        android:adjustViewBounds="true"
+        android:id="@+id/imgTree"
+        />
+
+    <MediaController
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxxx-xx-xx xx:xx:xx"
+            android:id="@+id/textTimeTree"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0)"
+            android:id="@+id/num2"
+            android:layout_alignParentEnd="true"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/btn_radio"
+            android:id="@+id/logo2"
+            android:layout_toLeftOf="@id/num2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0)"
+            android:id="@+id/num1"
+            android:layout_toLeftOf="@id/logo2"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/btn_radio"
+            android:id="@+id/logo1"
+            android:layout_toLeftOf="@id/num1"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -10,6 +10,36 @@
     tools:showIn="@layout/activity_more_utils"
     tools:context="com.example.zyxu.filebrowser.MoreUtils">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L1"
+            android:id="@+id/btnPreview1"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L2"
+            android:id="@+id/btnPreview2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L3"
+            android:id="@+id/btnPreview3"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L4"
+            android:id="@+id/btnPreview4"
+            />
+    </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +55,7 @@
         android:text="Url To File"
         android:id="@+id/btnU2F"
         android:layout_below="@+id/btnDelta"
+        android:layout_marginTop="59dp"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -34,5 +65,14 @@
         android:id="@+id/btnImg"
         android:layout_below="@+id/btnU2F"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/btnImg"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mimetypes_96" />
+
 
 </RelativeLayout>
